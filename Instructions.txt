@@ -1,0 +1,75 @@
+Author: Courtney Spivey 
+Date: February 15th, 2019
+Class: Game Engine Design
+Professor: Roger Mailler
+
+PROJECT ONE GUIDELINES: 
+
+Build a game engine that has the following abilities: 
+
+1.	Startup and Shutdown of components
+2.	Math Library
+3.	Memory Management (pool or stack allocator) -- going with pool allocator
+
+Demonstrate its basic capabilities by building unit tests				---- DONE
+that allocate a large number (5,000 +) of vertices that are				---- !!!
+then rotated, translated, and scaled using a 4x4 homogeneous matrix.	---- IN PROGRESS
+Your library should also be capable of representing						
+and working with quaternions.											---- DONE
+
+Demonstrate this capability by generating a set of quaternions			---- DONE
+and performing the basic operations of rotating a set of vectors with	---- DONE
+a quaternion and then using the inverse to rotate it back.				---- DONE
+Then show that you can rotate the same vectors using two separate		---- !!!
+quaternions and then rotate them back to their original position.		---- !!!
+
+
+-------------------------------------------------------------------------------------------------
+
+PROJECT TWO GUIDELINES: 
+
+Build a game engine that has the following abilities
+1.	Startup and Shutdown of components
+2.	Camera																---- DONE?
+	Control																---- DONE
+3.	Graphics primitives													---- DONE
+a.	Sphere																---- 
+b.	Quad																---- 
+c.	Rectangle															---- DONE
+d.	Pyramid																---- DONE
+4.	Ability to texture primitives using an image format					---- 
+5.	Math Library														---- DONE
+6.	Memory Management (pool or stack allocator)							---- DONE
+Demonstrate its basic capabilities by producing a 
+primitive map that you can drive the camera through.  
+Don’t worry about collision detections or object occlusion.
+
+
+For textures, currently the library is unlinked to the resource file
+GOODBOI.JPG is a stupid fix this issue later 
+
+IF YOU NEED TO USE 'FILESYSTEM: STUFF' DON'T, JUST DELETE IT
+Create the CMake source...build it
+
+
+PROJECT THREE SPECIFICATIONS: 
+
+1. Startup and Shutdown of components									---- NO
+2. Camera Control														---- COMPLETELY DONE
+3. Graphics Primitives:													---- DONE
+	a. Sphere															---- DONE
+	b. Quad...like a cube?												---- COMPLETELY DONE
+	c. Rectangle														---- DONE
+	d. Pyramid															---- DONE
+4. Ability to texture primitives using an image format					---- COMPLETELY DONE
+5. Math Library															---- FIX QUATERNIONS
+6. Memory Management													---- DONE...(?)
+7. Import Models and Textures											---- NO
+8. Perform basic Character animation									---- NO
+9. Integrate a basic physics engine										---- NO
+10. Have lights (no shadows required)									---- NO
+
+Demonstrate its basic capbilities by producing a map tht you can drive 
+the camera through. The camera should interact with the environment 
+including object collisions. The map must include 
+an animated character of some type. 
